@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Acesso ao Sistema</h1>
+    <form action="autenticar.php" method="post">
+        <label for="user">
+            Usuário:
+        </label>
+        <input type="text" name="user" id="user" maxlength="30" placeholder="Insira o nome do usuário" required autofocus autocomplete="none">
+        <label for="passwd">
+            Senha:
+        </label>
+        <input type="password" name="passwd" id="passwd" maxlength="10" placeholder="Insira a senha do usuário" required autocomplete="none">
+
+        <input type="submit" name="entrar" id="entrar" value="Entrar"/>
+        <input type="reset" name="limpar" id="limpar" value="Limpar"/>
+
+        
+    </form>
+    
+</body>
+</html>
